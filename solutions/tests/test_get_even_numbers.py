@@ -7,6 +7,7 @@ Date: January 6, 2025
 import unittest
 from ..get_even_numbers import get_even_numbers  # type: ignore
 
+
 class TestGetEvenNumbers(unittest.TestCase):
     """Test cases for the filter_even_numbers function."""
 

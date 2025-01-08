@@ -11,6 +11,7 @@ Created on: January 6, 2025
 
 from typing import List
 
+
 def get_even_numbers(numbers: List[int]) -> List[int]:
     """
     Filters and returns all even numbers from the input list of integers.
