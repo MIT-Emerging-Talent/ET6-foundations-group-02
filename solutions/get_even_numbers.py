@@ -1,5 +1,4 @@
-# !/usr/bin/env/ python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/env/python3
 """
 This module contains a function to get even numbers from a list of integers.
 

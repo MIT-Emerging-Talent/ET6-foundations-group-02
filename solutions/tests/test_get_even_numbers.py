@@ -1,11 +1,10 @@
-# !/usr/bin/env/ python3
-# -*- coding: utf-8 -*-
+#!/usr/bin/env/ python3
 """
 Author: Melat Assefa
 Date: January 6, 2025
 """
 import unittest
-from ..get_even_numbers import get_even_numbers  # type: ignore
+from ..get_even_numbers import get_even_numbers
 
 
 class TestGetEvenNumbers(unittest.TestCase):
