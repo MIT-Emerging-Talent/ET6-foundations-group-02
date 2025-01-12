@@ -1,12 +1,12 @@
-# tests/test_convert_decimal_to_binary.py
+# decimal_to_binary.py
 
 """
 Unit tests for the convert_decimal_to_binary function.
-
 This test suite includes:
 - Regular cases: Typical inputs that the function is expected to handle.
 - Edge cases: Inputs that are at the boundary of what the function should handle.
 - Error cases: Input that should raise exceptions due to invalid input.
+
 @author: Melat Assefa
 Date: January 6, 2025 
 """
