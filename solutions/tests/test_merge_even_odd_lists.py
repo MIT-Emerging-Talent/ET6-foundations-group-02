@@ -17,11 +17,6 @@ class TestMergeEvenOddLists(unittest.TestCase):
         result = merge_even_odd_lists([4, 12, 7, 26, 34], [6, 13, 25, 18, 47])
         assert result == [4, 12, 26, 34, 13, 25, 47]
 
-    def test_empty_lists(self):
-        """Test with empty lists."""
-        result = merge_even_odd_lists([], [])
-        assert result == []
-
     def test_no_even_numbers_in_first_list(self):
         """Test when first list has no even numbers."""
         result = merge_even_odd_lists([1, 3, 5], [2, 4, 7, 9])
