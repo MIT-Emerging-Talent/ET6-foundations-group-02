@@ -4,7 +4,7 @@
 This module provides a function to convert a non-negative integer to its binary representation.
 
 Function:
-    - convert_decimal_to_binary: Returns the binary representation of a given non-negative integer.
+    - convert_decimal_to_binary: Return the binary representation of a given non-negative integer.
 Author: Melat Assefa
 Date: January 6, 2025 
 """
