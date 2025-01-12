@@ -9,6 +9,7 @@ Author: Melat Assefa
 Date: January 6, 2025 
 """
 
+
 def convert_decimal_to_binary(n: int) -> str:
     """
     Converts a non-negative integer to its binary representation.
@@ -31,5 +32,5 @@ def convert_decimal_to_binary(n: int) -> str:
         '10111'
     """
     if n < 0:
-        raise ValueError("Input must be a non-negative integer.")
+        raise ValueError("Input should be a non-negative integer.")
     return bin(n)[2:]

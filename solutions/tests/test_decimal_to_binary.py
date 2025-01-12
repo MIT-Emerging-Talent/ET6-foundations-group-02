@@ -21,29 +21,33 @@ class TestConvertDecimalToBinary(unittest.TestCase):
     # Regular Cases
     def test_binary_of_zero(self):
         """Regular case: Test that the function returns '0' for input 0."""
-        result = convert_decimal_to_binary(0)
-        self.assertEqual(result, "0", "The binary representation of 0 should be '0'.")
+        self.assertEqual(
+            convert_decimal_to_binary(0),
+            "0",
+            "The binary representation of 0 should be '0'.",
+        )
 
     def test_binary_of_five(self):
         """Regular case: Test that the function returns '101' for input 5."""
-        result = convert_decimal_to_binary(5)
         self.assertEqual(
-            result, "101", "The binary representation of 5 should be '101'."
+            convert_decimal_to_binary(5),
+            "101",
+            "The binary representation of 5 should be '101'.",
         )
 
     def test_binary_of_twenty_three(self):
         """Regular case: Test that the function returns '10111' for input 23."""
-        result = convert_decimal_to_binary(23)
         self.assertEqual(
-            result, "10111", "The binary representation of 23 should be '10111'."
+            convert_decimal_to_binary(23),
+            "10111",
+            "The binary representation of 23 should be '10111'.",
         )
 
     # Edge Cases
     def test_large_number(self):
         """Edge case: Test the function with a large number."""
-        result = convert_decimal_to_binary(1023)
         self.assertEqual(
-            result,
+            convert_decimal_to_binary(1023),
             "1111111111",
             "The binary representation of 1023 should be '1111111111'.",
         )
