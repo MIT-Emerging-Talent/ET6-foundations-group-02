@@ -54,8 +54,10 @@ about: A template PR for code review with a checklist
 
 - [ ] The function's name describes it's behavior
 - [ ] The function's name matches the file name
+  - _It's ok to have extra helper functions if necessary, like with mergesort_
 - [ ] The function has correct type annotations
-- [ ] The function is not called in the function file
+- [ ] The function is not called at the top level of the function file 
+  - _Recursive solutions **can** call the function from **inside** the function body_
 
 ## Strategy
 
@@ -67,7 +69,7 @@ about: A template PR for code review with a checklist
 
 ### Don'ts
 
-- [ ] The function's strategy _is not_ described in the documentation
+- [ ] The function's strategy _is not_ described in any docstrings or tests
 - [ ] Comments explain the _strategy_, **not** the _implementation_
 - [ ] The function _does not_ have more comments than code
   - If it does, consider finding a new strategy or a simpler implementation
